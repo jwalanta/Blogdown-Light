@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Suin\\RSSWriter' => array($vendorDir . '/suin/php-rss-writer/Source'),
-    'Michelf' => array($vendorDir . '/michelf/php-markdown'),
+    'Parsedown' => array($vendorDir . '/erusev/parsedown'),
 );
