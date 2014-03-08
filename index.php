@@ -1,4 +1,3 @@
-
 <?php
 // This is the composer autoloader. Used by
 // the markdown parser and RSS feed builder.

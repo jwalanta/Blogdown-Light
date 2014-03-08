@@ -13,9 +13,7 @@
 	<link href="<?php echo site_url() ?>assets/css/style.css" rel="stylesheet" />
 	<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=desert"></script>
 
-	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin,cyrillic-ext" rel="stylesheet" />
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -32,13 +30,13 @@
 		<!-- the sidebar-->
 		<ul>
 			<li><a href="<?php echo site_url() ?>">Home</a></li>
-			<li><a href="https://github.com/SiteOctopus/Light-Blog/zipball/master">Zip download</a></li>
-			<li><a href="https://github.com/SiteOctopus/Light-Blog/tarball/master">tar.gz download</a></li>
-			<li><a href="https://github.com/SiteOctopus/Light-Blog">Github Page</a></li>
-			<li><a href="http://siteoctopus.github.com/Light-Blog/">Our Site</a></li>
+			<li><a href="<?php echo site_url() ?>">About Me</a></li>
+			<li><a href="<?php echo site_url() ?>">Projects</a></li>
+			<li><a href="https://twitter.com/jwalanta">@jwalanta</a></li>
+			<li><a href="https://jwalanta.blogspot.com/">Old Blog</a></li>
 		</ul>
 		<!-- End custom sidebar-->
-		<p class="author"><?php echo config('blog.authorbio') ?></p>
+		<p class="footer"><?php echo config('blog.footer') ?></p>
 
 	</aside>
 
