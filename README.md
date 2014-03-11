@@ -1,7 +1,7 @@
 Blogdown-Light
 ==============
 
-Lightweight, flat-file, Markdown based blog. Developed for my [blog](http://jwalanta.com)
+Lightweight, flat-file, Markdown based blog. Developed for my [blog](http://jwalanta.com).
 
 
 Features

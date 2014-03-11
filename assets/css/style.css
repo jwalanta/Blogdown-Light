@@ -64,7 +64,7 @@ pre, code{
   background-color: #F8F8F8;
   border: 1px solid #CCC;
 }
-pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 10px !important;}
+pre { padding: 10px !important; overflow: auto;}
 pre code { border: 0px !important; background: transparent !important; line-height: 1.3em; }
 code { padding: 0 3px 0 3px; }
 sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
@@ -160,6 +160,12 @@ h1 a, h2 a{
 	position: relative;
 }
 
+p.footer{
+	font-size: 11px;
+	color: #888;
+	margin-top: 20px;
+}
+
 /*
 .post .date:before{
 	width:18px;
@@ -217,14 +223,6 @@ aside ul li a:hover{
 	color:#666;
 }
 
-aside p.footer{
-	position: absolute;
-	bottom: 20px;
-	height: 30px;
-	font-size: 10px;
-	color: #888;
-}
-
 
 /*----------------------------
 	Pagination buttons
@@ -233,7 +231,7 @@ aside p.footer{
 
 .pagination-arrow{
 	display: inline-block;
-	font: bold 16px/1 'Open Sans Condensed', sans-serif;
+	font: bold 16px/1 'Lato', sans-serif;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	margin: 20px 15px;
@@ -324,8 +322,10 @@ aside p.footer{
 		margin-left: 0;
 		position: static;
 		width: 90%;
-		padding: 5% 5% 0 5%;
+		margin: 0 5%;
 		text-align: center;
+		border-bottom: 1px solid #eaeaea;
+
 	}
 
 	aside .description{
@@ -334,6 +334,7 @@ aside p.footer{
 
 	aside li {
 		display: inline-block;
+		padding: 0 5px;
 	}
 
 	aside ul{
